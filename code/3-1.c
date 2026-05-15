@@ -1,4 +1,4 @@
-#include <stdio.h>D
+#include <stdio.h>
 
 typedef int (*BinOp)(int, int);
 
