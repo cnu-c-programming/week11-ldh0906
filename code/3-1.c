@@ -8,7 +8,7 @@ int mul(int a, int b) { return a * b; }
 
 int compute(int a, int b, int(*fp)(int, int)) {
     if(fp == NULL) {
-        printf("NULL pointer\n");
+        printf("Null pointer\n");
         return -1;
     } else {
         return fp(a, b);
